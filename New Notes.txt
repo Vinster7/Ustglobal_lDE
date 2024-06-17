@@ -1,0 +1,30 @@
+SQL - STRUCTURED QUERY LANGUAGE
+Use to manage and query the data
+4 types of statement
+1. DDL - Data Definition Language
+(CREATE, DROP, ALTER, TRUNCATE)
+2. DML - Data Manipulation Language 
+(INSERT, UPDATE, DELETE, MERGE)
+3. DQL - Data Query Language
+(Select)
+4.DCL - Data Control LANGUAGE
+(GRANT, REVOKE, COMMIT, ROLLBACK)
+
+select * from sales.customers
+select first_name,last_name, email from sales.customers
+select first_name_ + ' ' + last_name as "Fullname" from sales.customers
+select s.email from sales.customers s
+
+/* Sorting of data
+-Order by Clause
+-Order it in ascending
+-Order it in descending
+*/
+
+/* Where clause filters
+Relational operators like (==, !=,>, <, >=,<=)
+In, Not in
+Is null, Is not null'like(%,-)
+Logical operators like (And, or, Not )
+Between
+*/

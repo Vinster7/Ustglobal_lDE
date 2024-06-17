@@ -1,0 +1,10 @@
+git --version : will display the current versionof git
+git init : initialized the emoty git repository
+gti config --list : displays all the git configurations set parameters
+git config --get <parameter-name> : it displays the value if givr parameter - name
+git config --global user.email "vineshkumar7901@gmail.com"
+git config --global user.name "Vinster7"
+git status : It will show the status of your files in the given local git repository
+git add <filename> : it will add only specific files to the staging
+git commit -m "initial version" : it will create the version with the given message
+
